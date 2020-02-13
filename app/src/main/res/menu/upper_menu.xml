@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/navigation_logout" />
+    <item
+        android:id="@+id/buttonGoQuizz"
+        android:icon="@drawable/ic_examquizz"
+        android:title="@string/navigation_doQuiz"
+        app:showAsAction="ifRoom" />
+</menu>

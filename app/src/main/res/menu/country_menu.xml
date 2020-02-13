@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchViewFilter"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filtroCountry"
+        android:icon="@drawable/ic_filter_green"
+        android:title="filtroCountry"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/filterLanguage"
+                android:checkable="true"
+                android:title="Idioma" />
+            <item
+                android:id="@+id/filterCurrency"
+                android:checkable="true"
+                android:checked="false"
+                android:title="Moneda" />
+        </menu>
+
+
+    </item>
+</menu>

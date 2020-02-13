@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizzActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewQuestion"
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:textSize="36sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewFlagCustom"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textViewQuestion"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="422dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        android:background="@drawable/gradient_quizz">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animacionAcierto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResponse3"
+            app:layout_constraintVertical_bias="0.475"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="15179-confirm-popup.json"></com.airbnb.lottie.LottieAnimationView>
+
+        <Button
+            android:id="@+id/buttonResponse1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Button"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/custom_quizz_button"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/buttonResponse2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Button"
+            android:textSize="24sp"
+            android:background="@drawable/custom_quizz_button"
+            app:layout_constraintEnd_toEndOf="@+id/buttonResponse1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonResponse1"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResponse1"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/buttonResponse3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="15dp"
+            android:text="Button"
+            android:background="@drawable/custom_quizz_button"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonResponse2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonResponse2"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResponse2"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:progress="0"
+            android:progressTint="#FFE768"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animacionFallo"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResponse3"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="4970-unapproved-cross.json"></com.airbnb.lottie.LottieAnimationView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

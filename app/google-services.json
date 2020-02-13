@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "555885105514",
+    "firebase_url": "https://worldquizapp-damtriana.firebaseio.com",
+    "project_id": "worldquizapp-damtriana",
+    "storage_bucket": "worldquizapp-damtriana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555885105514:android:3446d684beae9d159dd513",
+        "android_client_info": {
+          "package_name": "com.salesianostriana.worldquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555885105514-3gbqdr9c1to7dmg82rpi54vk14rhb0ep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "91c5acb341925e4b8807e2bfb48d977014e71243"
+          }
+        },
+        {
+          "client_id": "555885105514-71anp80fma955o3ta2f25cd6bv7kpi5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "2b8815840e205f36b98ebce2d9fa92e66331561f"
+          }
+        },
+        {
+          "client_id": "555885105514-t6de3t9knn1pisu48gpaglo3ke70c3fv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "564d62cf50024a8036ba5480fd7646c295708601"
+          }
+        },
+        {
+          "client_id": "555885105514-cvmeomjedqosudvv3tmbehv4rb3fv300.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "0ead099190dc4419287c45c7951d3c8d38e996ae"
+          }
+        },
+        {
+          "client_id": "555885105514-5v65c97p3580b6kk49q80gp475b85mcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "df575041e0dc36eeacf511a60f6634fae90cc817"
+          }
+        },
+        {
+          "client_id": "555885105514-n2lslg8casu1o17mlhdfgioqf1lja5tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "767232ec0b530e5051db46c2265dd0ea92fee03a"
+          }
+        },
+        {
+          "client_id": "555885105514-ha5btrfk6gsi0sbq71lhmobq6knkn7ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "2ca20bc1256f39fffb5275316a42f68c35371484"
+          }
+        },
+        {
+          "client_id": "555885105514-3r6h2rr4sefapgjpikcj2fbfjrgfq922.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salesianostriana.worldquizapp",
+            "certificate_hash": "8e5c90228904cf098ccef957af7bb1ae43cb1cf2"
+          }
+        },
+        {
+          "client_id": "555885105514-4alq4imh8dhr5fehrpn7cf5g4u2vbnvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZsqYz8w79TLPXwsyjx-11WeI93SRT_pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555885105514-4alq4imh8dhr5fehrpn7cf5g4u2vbnvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

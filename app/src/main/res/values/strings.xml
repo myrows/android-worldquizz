@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WorldquizApp</string>
+    <string name="title_countries">Countries</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_maps">Map</string>
+
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_logout">Log Out</string>
+    <string name="navigation_doQuiz">Quiz</string>
+    <string name="title_activity_quizz">QuizzActivity</string>
+    <string name="button_previous">Anterior</string>
+    <string name="button_next">Siguiente</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="title_ranking">Ranking</string>
+    <string name="puntosPlain">Puntos: </string>
+    <string name="efectividadPlain">Efectividad: </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="country_capital">Capital:</string>
+    <string name="country_hab">Habitantes:</string>
+    <string name="country_lang">Idioma:</string>
+
+</resources>
